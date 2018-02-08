@@ -24,7 +24,7 @@ CKEDITOR.plugins.add('video', {
     editor.ui.addButton('Video', {
       label: editor.lang.video.button,
       command: 'video',
-      toolbar: 'video'
+      toolbar: 'insert'
     });
     CKEDITOR.dialog.add('video', this.path + 'dialogs/video.js');
     editor.on('doubleclick', function(e) {
